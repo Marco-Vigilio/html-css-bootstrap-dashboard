@@ -29,6 +29,15 @@ li{
     list-style-type: none;
 }
 
+a{
+    text-decoration: none;
+}
+
+/*header*/
+
+header i{
+}
+
 /*colori*/
 
 .my_bg_white{
@@ -37,9 +46,9 @@ li{
 
 /*my_class*/
 
-.my_small-img{
+.my_small-logo{
     width: 50px;
-    height: 50px;
+    display: none;
 }
 
 /*elementi da cancellare*/
