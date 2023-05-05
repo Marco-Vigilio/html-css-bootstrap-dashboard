@@ -1,0 +1,15 @@
+header{
+    background-color: red;
+    height: 100px;
+}
+
+aside{
+    background-color: blue;
+    width: 150px;
+}
+
+/*elementi da cancellare*/
+
+.trat{
+    border: dashed 2px blue;
+}
