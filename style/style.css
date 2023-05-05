@@ -7,28 +7,48 @@
   }
 
 header{
-    background-color: red;
-    height: 100px;
+    background-color: #F8F9FA;
+    height: 90px;
 }
 
 aside{
     background-color: blue;
     width: 150px;
-    height: calc(100vh - 100px);
+    height: calc(100vh - 90px);
     float: left;
 }
 
 main{
     background-color: yellow;
-    height: calc(100vh - 100px);
+    height: calc(100vh - 90px);
     width: calc(100% - 150px);
     float: left;
 }
 
+li{
+    list-style-type: none;
+}
 
+/*colori*/
+
+.my_bg_white{
+    background-color: white;
+}
+
+/*my_class*/
+
+.my_small-img{
+    width: 50px;
+    height: 50px;
+}
 
 /*elementi da cancellare*/
 
 .trat{
     border: dashed 2px blue;
 }
+
+.sfondo{
+    background-color: red;
+}
+
