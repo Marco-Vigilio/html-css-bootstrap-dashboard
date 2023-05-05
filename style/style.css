@@ -8,7 +8,6 @@
 
 header{
     background-color: #F8F9FA;
-    height: 90px;
 }
 
 aside{
@@ -36,19 +35,22 @@ a{
 /*header*/
 
 header i{
+    color: #837c79;
+}
+
+.my_small-logo{
+    width: 50px;
+    display: none;
+}
+
+header li.my_bell:active i{
+    color: #FF9017;
 }
 
 /*colori*/
 
 .my_bg_white{
     background-color: white;
-}
-
-/*my_class*/
-
-.my_small-logo{
-    width: 50px;
-    display: none;
 }
 
 /*elementi da cancellare*/
