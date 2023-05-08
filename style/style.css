@@ -134,12 +134,20 @@ section.my_light_blue{
     color: white;
 }
 
-.my_light_blue div{/*da pensare se cancelllare in seguito o no*/
+.my_light_blue>div{/*da pensare se cancelllare in seguito o no*/
     padding: 1rem 3rem;
 }
 
 .my_light_blue a{
     color: white;
+}
+
+.my_botton{
+    text-align: center;
+    font-size: .7rem;
+    padding: .1rem .5rem;
+    border-radius: 5rem;
+    border: 2px solid lime; /*da eliminare il border*/
 }
 
 .my_light_blue .my_plus{
@@ -151,6 +159,10 @@ section.my_light_blue{
 
 .my_bg_white{
     background-color: white;
+}
+
+.my_bg_darkblue{
+    background-color: #165BBA;
 }
 
 /*elementi da cancellare*/
