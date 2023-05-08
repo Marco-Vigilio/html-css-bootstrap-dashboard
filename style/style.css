@@ -106,9 +106,10 @@ header .my_icone a:last-child{
 
 section.my_sidebar a{
     color: white;
-    /*
+}
+
+.my_sidebar li{
     margin-bottom: 1.5rem;
-    */
 }
 
 .my_sidebar i{
