@@ -96,14 +96,30 @@ header .my_icone a:last-child{
     display: block;
 }
 
-/*
-header .my_icone a:last-child li{
-    display: block;
-}
-*/
-
 @media screen and (min-width: 992px){
     header .my_icone a{
+        display: block;
+    }
+}
+
+/*my_sidebar*/
+
+section.my_sidebar a{
+    color: white;
+    margin-bottom: 1.5rem;
+}
+
+.my_sidebar i{
+    width: 1rem;
+    margin-right: 2rem;
+}
+
+.my_sidebar span{
+    display: none;
+}
+
+@media screen and (min-width: 992px){
+    .my_sidebar span{
         display: block;
     }
 }
