@@ -40,8 +40,30 @@ section.my_main_content{
 
 /*header*/
 
-nav>div:nth-child(n+1){
-    background: white;
+header nav{
+    height: 100%;
+    background-color: white;
+}
+
+header nav div{
+    height: 100%;
+}
+
+header .my_img_logo img:first-child{
+    width: 50px;
+}
+
+header .my_img_logo img:last-child{
+    display: none;
+}
+
+@media screen and (min-width: 992px){
+    header .my_img_logo img:first-child{
+        display: none;
+    }
+    header .my_img_logo img:last-child{
+        display: block;
+    }
 }
 
 header div.my_search{
@@ -49,11 +71,11 @@ header div.my_search{
     width: 100%;
 }
 
-div.my_searchbar{
+header div.my_searchbar{
     width: 100%;
 }
 
-div.my_searchbar input{
+header div.my_searchbar input{
     background-color: #E5E5E5;
     width: 100%;
 }
