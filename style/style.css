@@ -106,7 +106,9 @@ header .my_icone a:last-child{
 
 section.my_sidebar a{
     color: white;
+    /*
     margin-bottom: 1.5rem;
+    */
 }
 
 .my_sidebar i{
@@ -123,6 +125,10 @@ section.my_sidebar a{
         display: block;
     }
 }
+
+/*my_main_content*/
+
+
 
 /*colori*/
 
