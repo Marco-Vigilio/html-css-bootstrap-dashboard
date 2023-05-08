@@ -1,3 +1,13 @@
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*Layout*/
+
 header{
     background-color: red;
     height: 80px;
@@ -28,12 +38,16 @@ section.my_main_content{
     }  
 }
 
-li{
-    list-style-type: none;
+/*header*/
+
+header div.search{
+    background-color: #E5E5E5;
+    width: 100%;
 }
 
-a{
-    text-decoration: none;
+div.search input{
+    background-color: #E5E5E5;
+    width: 95%;   
 }
 
 /*colori*/
