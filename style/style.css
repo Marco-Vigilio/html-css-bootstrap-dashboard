@@ -129,7 +129,14 @@ section.my_sidebar a{
 
 /*my_main_content*/
 
+section.my_light_blue{
+    background-color: #1B72E8;
+    color: white;
+}
 
+.my_light_blue div{
+    padding: 1rem 3rem;
+}
 
 /*colori*/
 
